@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NewsLetter</title>
+</head>
+<style>
+    body{
+        background-color: rgb(237, 148, 16);
+    }
+    .container{
+        background-color: greenyellow;
+
+    }
+       .btn{
+    margin: 2px;
+    padding: 2px 4px;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    color:white;
+    background-color:black;
+    border: 2px solid white;
+  }
+  .btn:hover{
+    background-color: grey;
+  }
+  .container{
+    margin: 105px 131px;
+    padding: 85px 376px;
+    border: 2px solid rgb(128, 83, 0);
+    border-radius: 19px;
+    width: 33%;
+    
+  }
+  .form-group input{
+    text-align: center;
+    border: 2px solid grey;
+    width: 325px;
+    border-radius: 9px;
+    padding: 11px 0px;
+    margin: 11px auto;
+    display: block;
+    color: rgb(224, 13, 13);
+   }
+   .container button{
+
+width:329px;
+margin:20px auto;
+padding:11px 14px;
+display:block;
+
+}
+h1{
+    text-align: center;
+  }
+</style>
+<body>
+    <div class="container">
+        <h1>Signup to SOS</h1>
+        <form action="/" method="POST">
+            <div class="form-group">
+                <input type="text" name="fName" placeholder="Enter your first name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="lName" placeholder="Enter your last name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="email" placeholder="Enter your Email">
+            </div>
+            <!-- <div class="form-group">
+                <input type="text" placeholder="Enter your locality">
+            </div> -->
+            <button class="btn">Sign up</button>
+        </form>
+    </div>
+</body>
+</html>
